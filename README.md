@@ -1,4 +1,4 @@
-## ANALOG DESIGN OF INVERTER,NOR AND NAND GATE USING VIRTUOSO
+## Schematic and simulation OF CMOS INVERTER,NOR AND NAND GATE USING CADENCE virtuoso
 ## AIM:
   to schematic and simulate inverter using CADENCE virtuoso.
 ## APPARATUS REQUIRED:
@@ -69,8 +69,11 @@ i.	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schemat
 j.	Execute Simulation -- Net list and Run
 
 ## INVERTER:
-![image](https://github.com/jayashree1707/VLSI-LAB-EXP-6/assets/160314881/46d1926f-597d-4aee-9bb8-cd816072c15a)
-![image](https://github.com/jayashree1707/VLSI-LAB-EXP-6/assets/160314881/99a7bffd-dbfe-4f53-9ff7-34216f329cc2)
+
+![image](https://github.com/jayashree1707/VLSI-LAB-EXP-6/assets/160314881/e7278808-2830-4f7d-877f-1d3205fa6490)
+
+![image](https://github.com/jayashree1707/VLSI-LAB-EXP-6/assets/160314881/df72ec90-5964-4f7e-a939-2c8740fe5d5c)
+
 ## Specifications: 
 Vpulse 	V1 = 0	Vdc	= 1
 V2 = 1
@@ -84,12 +87,46 @@ td = 0,tr=tf=1 n, ton= 100n ,T=200n
 2.	Start = -1 Stop = 1 resp.
 
 ## Transient Analysis:
-![image](https://github.com/jayashree1707/VLSI-LAB-EXP-6/assets/160314881/aad81ae9-ea5e-459b-ae73-c9c366433d58)
+
+![image](https://github.com/jayashree1707/VLSI-LAB-EXP-6/assets/160314881/cb9ad5bb-1e37-4e6c-a6fb-007db33bd416)
+
  ## DC Analysis:
-![image](https://github.com/jayashree1707/VLSI-LAB-EXP-6/assets/160314881/cfd6c933-008e-483c-8d59-7a5285d2ca9b)
+![image](https://github.com/jayashree1707/VLSI-LAB-EXP-6/assets/160314881/2e8400be-435c-47d7-991b-578f07188141)
+## 2 INPUT NAND:
+![image](https://github.com/jayashree1707/VLSI-LAB-EXP-6/assets/160314881/123f6896-ae89-4201-be01-6f4d977f6a67)
+![image](https://github.com/jayashree1707/VLSI-LAB-EXP-6/assets/160314881/d4c7cd0b-4a5f-4421-860d-e09fe20f403e)
+## Specifications:
+    Vpulse A V1 = 0, V2 = 1,Vpulse B V1 = 0, V2 = 1
+    Vdc = 1
+    For Vpulse A td = 0,tr = tf = 1 n, ton = 200n ,T = 100n
+    For Vpulse B td = 0,tr = tf = 1 n, ton = 100n ,T = 50n
 
+## OUTPUT: Simulation Settings
+## Setup for transient analysis:
+    1.Stop time =400n
+    
+![image](https://github.com/jayashree1707/VLSI-LAB-EXP-6/assets/160314881/388f55f0-4d89-45a6-bc28-a6c063da8a4e)
 
+## 2 INPUT NOR:
 
+![image](https://github.com/jayashree1707/VLSI-LAB-EXP-6/assets/160314881/ecbcceee-4c23-47f4-acc3-9921796283b1)
+
+![image](https://github.com/jayashree1707/VLSI-LAB-EXP-6/assets/160314881/a4c74062-9c7e-4b56-b5d5-3186e06a4172)
+
+## Specifications:     V
+    Vpulse A V1 = 0, V2 = 1,Vpulse B V1 = 0, V2 = 1
+    Vdc = 1
+    For Vpulse A td = 0,tr = tf = 1 n, ton = 200n ,T = 100n
+    For Vpulse B td = 0,tr = tf = 1 n, ton = 100n ,T = 50n
+
+## OUTPUT: Simulation Settings
+## Setup for transient analysis:
+    1.Stop time =400n
+
+![image](https://github.com/jayashree1707/VLSI-LAB-EXP-6/assets/160314881/66394093-3df1-46a6-8290-5f0d1aa308f4)
+
+## RESULT:
+The schematic and simulate inverter using CADENCE is done and verified successfully.
 
 
 
