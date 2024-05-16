@@ -1,4 +1,4 @@
-## Schematic and simulation OF CMOS INVERTER,NOR AND NAND GATE USING CADENCE virtuoso
+## SCHEMATIC AND SIMULATION OF CMOS INVERTER,NOR AND NAND GATE USING CADENCE virtuoso
 ## AIM:
   to schematic and simulate inverter using CADENCE virtuoso.
 ## APPARATUS REQUIRED:
